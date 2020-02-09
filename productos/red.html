@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tarjeta de red </title>
+        <meta name="author" content="pablo"/>
+        <meta name="keywors" content="tarjeta  red "/>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../estilos/style_main.css"/>
+
+    </head>
+    <header>
+        <a href="../index.html"><img src="../media/logo.png" height="100" alt="logo" title="logo"> </a> 
+        <form action="#" method="post">
+            <label for="i-busqueda" class="busqueda">Busqueda</label>
+                <input type="search" id="i-busqueda" name="busqueda" required class="busqueda">
+            <input type="submit" value="enviar" class="busqueda">
+        </form>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">inicio</a></li>
+            <li><a href="../contacto.html">contacto</a></li>
+            <li><a href="../AU.html">sobre nosotros</a></li>
+        </ul>
+    </nav>
+    <body>
+        <h1 class="titulo_productos">Tarjeta de Red</h1>
+        <img src="../media/red.png" class="producto" alt="tarjeta de red" title="tarjeta de red">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis lectus fringilla, lacinia dui suscipit, pulvinar lectus. Sed suscipit facilisis ipsum vitae euismod. Nam eget pretium lacus, ac dapibus nisl. Sed varius risus neque, laoreet vestibulum dui pretium a. Nullam ligula leo, volutpat eu elit ut, ornare efficitur orci. Nullam eu suscipit diam. Mauris auctor turpis et bibendum pellentesque. Proin sed tempus odio. Praesent a luctus diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse euismod, mi at consequat porta, magna tortor tincidunt eros, quis ullamcorper nisl neque vel quam. Nullam rhoncus lectus quis quam venenatis, nec dictum neque semper. Donec sit amet felis vehicula, tristique metus a, mollis risus. Aenean eu risus dui. Integer vel tristique lacus, et mollis eros. Duis a hendrerit lorem, vel vestibulum ante.
+    
+                </p>
+        <table>
+                <caption class="titulo_modelos">modelos</caption>
+                <tr>
+                    <th scope="col">modelo</th>
+                    <th scope="col">velocidad</th>
+                    <th scope="col">precio</th>
+                </tr>
+                <tr>
+                    <th scope="row">ar-32</th>
+                    <td>100Mb/s</td>
+                    <td class="precio">30&euro;</td>
+    
+                </tr>
+                <tr>
+                    <th scope="row">ar-42</th>
+                    <td>1Gb/s</td>
+                    <td class="precio">45&euro;</td>
+    
+                </tr>
+                <tr>
+                    <th scope="row">ar-52</th>
+                    <td>10Gb/s</td>
+                    <td class="precio">70&euro;</td>
+    
+                </tr>
+    
+            </table>
+            <form action="#" method="post">
+        
+                    <label for="i-cantidad">cantidad</label><br/>
+                    <input type="number" id="i-cantidad" min="0" max="50"> <br/> 
+                    <label for="i-numero">modelo</label><br/>
+                    <select name="opciones">
+                        <option value="m1">ar-32</option>                        
+                        <option value="m2">ar-42</option>        
+                        <option value="m3">ar-52</option>
+        
+                    </select><br/>
+                    <label for="chk-recordar">contratar garantia extendida(+10&euro;)</label><br/>
+                    <input type="checkbox" id="chk-recordar" name="recordar"> <br/>
+        
+                   
+                    <input type="submit" value="comprar">
+        
+                </form>
+    </body>
+    <footer>
+            2019 &copy; Pablo Villegas Aguilar
+    </footer>
+</html>

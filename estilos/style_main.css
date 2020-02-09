@@ -1,0 +1,75 @@
+/*header*/
+header{
+	background-color: #bd76ff;
+	height: 150px;
+}
+
+.logo{
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+.busqueda{
+	float: right;
+
+	margin-right:20px;
+	margin-top:10px;
+}
+
+/*body*/
+
+body{
+	background-color:#d7acff ;
+}
+article{
+	margin:30px;
+}
+.precio{
+	color:red;
+	font: bold;
+	font-size: large;	
+}
+.precio:hover{
+	font-size: larger;
+}
+article img{
+	height: 250px;
+}
+.productos_lista{
+	margin-left:auto;
+	margin-right:auto;
+}
+h1,h2,h3,h4{
+	font-weight: bold ;
+}
+.titulo_productos{
+	font-size: bold ;
+	text-align: center;
+}
+.titulo_modelos{
+	font-size: larger;
+	font-size: bold;
+}
+
+
+/*nav*/
+nav{
+	background-color: #cf9dff;
+	top:160px;
+	float:left;
+	height: 1200px;
+	width: 300px;
+}
+li{
+	font-size: larger;
+}
+
+
+/*footer*/
+
+footer {
+    color: grey;
+    text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+}
